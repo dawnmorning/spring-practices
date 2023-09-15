@@ -46,10 +46,12 @@ public class HelloController {
 	public String hello5() {
 		return "<h1>hello spring</h1>";
 	}
+	
 	@RequestMapping("/hello6")
 	public String hello6() {
 		return "redirect:/hello";
 	}
+	
 	@RequestMapping("/hello7")
 	public void hello7(HttpServletRequest request, HttpServletResponse response, Writer out) throws IOException {
 		String name = request.getParameter("name");
