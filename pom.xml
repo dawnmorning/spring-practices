@@ -9,5 +9,6 @@
 	<modules>
 		<module>hellospring</module>
 		<module>emaillist03</module>
+		<module>aoptest</module>
 	</modules>
 </project>
